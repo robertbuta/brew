@@ -1,0 +1,138 @@
+h1 {
+  color: #57cc99;
+  font-size: 35px;
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+#title {
+  display: inline;
+}
+
+#logo {
+  height: 80px;
+}
+
+#head {
+  margin-left: 23.3%;
+}
+
+body {
+  background-color: #0d0d2b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #57cc99;
+  font-size: 175%;
+}
+
+a {
+  color: #2A9D8F;
+  font-size: 30px;
+}
+
+#brew {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5%;
+  background-color: #57cc99;
+  border: 3px solid #2A9D8F;
+  border-color: #2A9D8F;
+  border-radius: 15px;
+  margin-left: 35%;
+}
+
+#question {
+  text-align: center;
+}
+
+#brew:active {
+  background-color: #2A9D8F;
+}
+
+#menu {
+  margin: auto;
+  width: 27%;
+  height: 30%;
+  padding: 30px;
+  margin-left: 23.3%;
+}
+
+@media (max-width: 1000px) {
+  #menu {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+#recipe {
+  visibility: hidden;
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  padding: 30px;
+}
+
+@media (max-width: 1000px) {
+  #recipe {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.box {
+  border-radius: 10px;
+}
+
+#instructions {
+  color: #2A9D8F;
+  font-size: 20px;
+}
+
+#name {
+  display: inline;
+  padding: 0;
+}
+
+.cont {
+  overflow: hidden;
+}
+
+.inLeft {
+  width: 40%;
+  float: left;
+}
+
+@media (max-width: 1000px) {
+  .inLeft {
+    width: 100%;
+    float: none;
+  }
+}
+
+.inRight {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 1000px) {
+  .inRight {
+    width: 100%;
+    float: none;
+  }
+}
+
+#photo {
+  width: 95%;
+  height: 95%;
+  border-radius: 20%;
+  border: 3px solid #2A9D8F;
+  border-color: #2A9D8F;
+}
+
+li {
+  font-size: 20px;
+  color: #2A9D8F;
+}
+/*# sourceMappingURL=style.css.map */

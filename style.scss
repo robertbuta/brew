@@ -1,0 +1,135 @@
+$fundal:#0d0d2b;
+$titlu:#57cc99;
+$color1:#2A9D8F;
+@mixin smallscreen {
+    @media (max-width: 1000px) {
+        @content
+    }
+}
+
+h1 {
+    color: $titlu;
+    font-size: 35px;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+#title {
+    display: inline;
+}
+
+#logo {
+    height: 80px;
+}
+
+#head {
+    margin-left: 23.3%;
+}
+
+body {
+    background-color: $fundal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: $titlu;
+    font-size: 175%;
+}
+
+a {
+    color: $color1;
+    font-size: 30px;
+}
+
+#brew {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5%;
+    background-color: $titlu;
+    border: 3px solid $color1;
+    border-color: $color1;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+
+#question {
+    text-align: center;
+}
+
+#brew:active {
+    background-color: $color1;
+}
+
+#menu {
+    margin: auto;
+    width: 27%;
+    height: 30%;
+    padding: 30px;
+    margin-left: 23.3%;
+    @include smallscreen {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+#recipe {
+    visibility: hidden;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    padding: 30px;
+    @include smallscreen {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.box {
+    //border: 3px solid $color1;
+    border-radius: 10px;
+}
+
+#instructions {
+    color: $color1;
+    font-size: 20px;
+}
+
+#name {
+    display: inline;
+    padding: 0;
+}
+
+.cont {
+    overflow: hidden;
+}
+
+.inLeft {
+    width: 40%;
+    float: left;
+    @include smallscreen {
+        width: 100%;
+        float: none;
+    }
+}
+
+.inRight {
+    width: 50%;
+    float: right;
+    @include smallscreen {
+        width: 100%;
+        float: none;
+    }
+}
+
+#photo {
+    width: 95%;
+    height: 95%;
+    border-radius: 20%;
+    border: 3px solid $color1;
+    border-color: $color1;
+}
+
+li {
+    font-size: 20px;
+    color: $color1;
+}
